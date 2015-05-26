@@ -18,7 +18,7 @@
       }
     });
 
-    if (location.hash === "message-sent") {
+    if (location.hash === "#message-sent") {
       alert('Message sent. Thanks!');
     }
     
