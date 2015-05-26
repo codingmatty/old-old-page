@@ -69,8 +69,8 @@ hr {
 	border:10px solid #3498db;
 }
 #code-backdrop {
-  opacity: 0.9;
+  opacity: 0.95;
   width: 100%;
-  -webkit-filter: blur(3px);
+  -webkit-filter: blur(5px);
 }
 
