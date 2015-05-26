@@ -124,45 +124,43 @@
               <h3><i class="mdi-content-send brown-text"></i></h3>
               <h4>Contact Me</h4>
             </div>
-            <div class="row">
-              <div class="input-field col s6">
-                <i class="mdi-action-account-circle prefix"></i>
-                <input name="first_name" type="text" class="validate">
-                <label for="first_name">First Name</label>
+            <form class="col s12" action="//formspree.io/m.a.jacobs@outlook.com" method="POST">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="mdi-action-account-circle prefix"></i>
+                  <input name="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
               </div>
-              <div class="input-field col s6">
-                <input name="last_name" type="text" class="validate">
-                <label for="last_name">Last Name</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="mdi-communication-email prefix"></i>
+                  <input name="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <form class="col s12" action="//formspree.io/m.a.jacobs@outlook.com" method="POST">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="mdi-communication-email prefix"></i>
-                    <input name="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                  </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="mdi-editor-mode-edit prefix"></i>
+                  <textarea name="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
                 </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="mdi-editor-mode-edit prefix"></i>
-                    <textarea name="message" class="materialize-textarea"></textarea>
-                    <label for="message">Message</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <input type="hidden" name="_subject" value="Message from your website" />
-                  <input type="hidden" name="_next" value="#" />
-                  <input type="text" name="_gotcha" style="display:none" />
-                </div>
-                <div class="row center">
-                  <button class="btn waves-effect waves-light" type="submit">Send
-                    <i class="mdi-content-send right"></i>
-                  </button>
-                </div>
-              </form>
-            </div>
+              </div>
+              <div class="row">
+                <input type="hidden" name="_subject" value="Message from your website" />
+                <input type="hidden" name="_next" value="#" />
+                <input type="text" name="_gotcha" style="display:none" />
+              </div>
+              <div class="row center">
+                <button class="btn waves-effect waves-light" type="submit">Send
+                  <i class="mdi-content-send right"></i>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
 
