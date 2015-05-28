@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/majacobs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.matthew-jacobs.com
+  * I am majacobs (https://keybase.io/majacobs) on keybase.
+  * I have a public key with fingerprint FD46 DC55 F778 6338 A554  C732 4D5D F45E A5C1 1358
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "fd46dc55f7786338a554c7324d5df45ea5c11358",
+            "host": "keybase.io",
+            "key_id": "4d5df45ea5c11358",
+            "kid": "010193fe8601ba6128dab7736d12b858b6a5f27c76117545ac2a9cf97201456465bf0a",
+            "uid": "2705aeb68da6742d096c3e9d1dacd219",
+            "username": "majacobs"
+        },
+        "service": {
+            "hostname": "www.matthew-jacobs.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432785028,
+    "expire_in": 157680000,
+    "prev": "828376fe1cd586612f8a3683c775ef757a9e9e17afc402523f8ea5cd993c8b8b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIlAnicbZJbbExBGIB33XpBXBoieOBUGpdqzplz5nIWcU1DIyGSFXHpZs7MnPZo
+u2e7e3araqMuQWlacXuouCSUhEY8IF7UtRRhIxoiHki8tOKhFXFX5lS9mZfJ/PP9
+38z/5783emggN3hhZfP2TE6TE3x8uyQZCNsHd9cplstrlVCdUiEGNtuJlol4LO5E
+PSWk2NxAnEFoY0yQrhMKocGwDgwOuW1AQSHTNB0SpVApdxN+htRYNCGKHFfG5CHi
+cBn9D18xcKFqqmbqtiBI1SyKNEA4tTDWEdeARSCxEIU2wAwjTcPQgJQBajLbxEDV
+DIgMBC1bpVKXHNABrEIqLCQtCBuAqyZiujC5xinjQDN9MCHiUVolJF1FN1PmWgkl
+XajIaMphwm+BX8kgUVNTU1RFPa9c1Mz9yxYxt0paYnHXc5lbKZlyz4uFfIVXGxvI
+EVZk0BaxnCiXDZUJKRFPOG5UCWmSZJ7j6zVDB5hAFZBCRWyJOXERcXwCYkRUufxn
+REoqCSA6RrbQGIcEyS7ZhOqI6AxjKGwMMTWFKTRMbWaoAALdJn6ruWnqjFjEUvz6
+qqOuEtLlN2mZVCacsij1knGhpO/c2jgsEMwNjBg+xB+JQG7O2H+DMn9qdqDzWF/j
+zZLj3tdIa1uqtGF5y3u3N7u7Njl53ey14fCV1x8bZor0u+yc9rbPD290VwD+qTBr
+fOhu/Z7+D30vTn0f0uhtCj7PrFyx62nXnDMFXfaho2vnLFnu5huLj/Ss/n29YyQo
+of35s98muqYpo3YuyTrwrTEY3jfqaPhi3ZeexZd/LC14tbcjmlXR0jAruWFix8MF
+O54eC52nZzPfl15b0VL0umlbatW0B+nYlub9mcSyvJ7z9V+fVRcbk97OfFSf3/ni
+86Ux434uOtFd0L9jwo302FjxlLx56xee+9V2Jn0wU/kGtfLSk9N7pszobT3xamt5
+9QFAT98nF19OPXx1Tbj3idte/weRBiyX
+=yyAS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/majacobs
+
+==================================================================
