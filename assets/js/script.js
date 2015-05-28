@@ -1,7 +1,9 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+      edge: 'right'
+    });
     $('.parallax').parallax();
     //$('.scrollspy').scrollSpy();
 
@@ -19,9 +21,19 @@
     });
 
     if (location.hash === "#message-sent") {
-      alert('Message sent. Thanks!');
+      Materialize.toast('Message Sent. Thanks!', 2000);
     }
     
+    $("#headline-slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      vertical: true,
+      adaptiveHeight: true,
+      mobileFirst: true
+    });
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
