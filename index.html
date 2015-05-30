@@ -8,6 +8,7 @@
     <!-- CSS  -->
     <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css" media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/lib/foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen,projection"/>
   </head>
   <body class="light-blue lighten-5">
@@ -35,13 +36,44 @@
       <div class="section no-pad-bot">
         <div class="container">
 
-          <div id="headline-slider">
-            <div><h1 class=" center deep-orange-text text-lighten-2">Software Engineer</h1></div>
-            <div><h1 class=" center orange-text text-lighten-2">Creative Problem Solver</h1></div>
-            <div><h1 class=" center amber-text text-lighten-2">Passionate Learner</h1></div>
-            <!--              <div><h1 class="header center yellow-text text-lighten-2">Creative Problem Solver</h1></div>-->
+          <div class="row">
+            <div id="headline-slider">
+              <div><h1 class="headline-text center deep-orange-text text-lighten-2">Software Engineer</h1></div>
+              <div><h1 class="headline-text center orange-text text-lighten-2">Creative Problem Solver</h1></div>
+              <div><h1 class="headline-text center amber-text text-lighten-2">Passionate Learner</h1></div>
+              <!--              <div><h1 class="headline-text center yellow-text text-lighten-2">Creative Problem Solver</h1></div>-->
+            </div>
           </div>
 
+          <div class="row">
+            <ul class="social expanded center">
+
+              <!-- Twitter -->
+              <li class="social item hvr-grow-rotate">
+                <a target="blank" href="http://twitter.com/swengmatt" title="@Swengmatt on Twitter">
+                  <i class='icon fi-social-twitter light-blue-text text-lighten-4'></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+
+              <!-- Linkedin -->
+              <li class="social item hvr-grow-rotate">
+                <a target="blank" href="https://www.linkedin.com/in/maj827" title="Matthew Jacobs on LinkedIn">
+                  <i class='icon fi-social-linkedin light-blue-text text-lighten-4'></i>
+                  <span class="label">Linkedin</span>
+                </a>
+              </li>
+
+              <!-- Github -->
+              <li class="social item hvr-grow-rotate">
+                <a target="blank" href="https://github.com/Swengmatt" title="Swengmatt on Github">
+                  <i class='icon fi-social-github light-blue-text text-lighten-4'></i>
+                  <span class="label">Github</span>
+                </a>
+              </li>
+
+            </ul>
+          </div>
         </div>
       </div>
       <div class="parallax"><img id="code-backdrop" src="assets/images/code-backdrop.jpg"></div>
@@ -84,16 +116,16 @@
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+              <h3 class="center brown-text"><img class="skill-icon" src="assets/images/dotNet-icon.png" /></h3>
               <h5 class="center">C# &amp; .NET</h5>
 
-              <p class="light">I have a few years experience using C# &amp; .NET technologies to create visually appealing and feature rich desktop software with WinForms as well as WPF.</p>
+              <p class="light">I have a few years experience using C# &amp; .NET technologies to create visually appealing and feature rich desktop software with WinForms as well as WPF. I use techniques such as events, delegates, and LYNQ extensively to make the most of all these technologies have to offer.</p>
             </div>
           </div>
 
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+              <h3 class="center brown-text"><img class="skill-icon" src="assets/images/javascript-icon.png" /></h3>
               <h5 class="center">Javascript</h5>
 
               <p class="light">Recently, I have been taking my many years of programming experience to apply myself toward learning Javascript and other web technologies to create responsive, functional and useful web applications. I have learned the basics of frameworks such as Backbone/Marionette and EmberJS, but have landed on AngularJS. I also have experience with jquery, bootstrap, coffeescript, grunt, npm and nodejs.</p>
@@ -102,7 +134,7 @@
 
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+              <h3 class="center brown-text"><img id="arduino-icon" class="skill-icon" src="assets/images/arduino-icon.png" /></h3>
               <h5 class="center">Embedded Systems</h5>
 
               <p class="light">I also have experience with programming embedded devices such as TI's MSP430, Arduino, Raspberry Pi. I learned embedded C, as well as object oriented techniques to use with embeded C to make it better structured and maintainable. Part of my current position I create an SDK library for our customers to integrate their code easily with the Silicon Labs chip.</p>
@@ -127,21 +159,21 @@
           <div class="row">
             <div class="input-field col s12">
               <i class="mdi-action-account-circle prefix"></i>
-              <input name="name" type="text" class="validate">
+              <input id="name" name="name" type="text" class="validate">
               <label for="name">Name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <i class="mdi-communication-email prefix"></i>
-              <input name="email" type="email" class="validate">
+              <input id="email" name="email" type="email" class="validate">
               <label for="email">Email</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
               <i class="mdi-editor-mode-edit prefix"></i>
-              <textarea name="message" class="materialize-textarea"></textarea>
+              <textarea id="message" name="message" class="materialize-textarea"></textarea>
               <label for="message">Message</label>
             </div>
           </div>
