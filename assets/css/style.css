@@ -71,6 +71,8 @@ hr {
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
+  filter: url(#blur);   
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
 }
 
 .skill-icon {
