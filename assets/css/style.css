@@ -77,10 +77,6 @@ hr {
   width: 7.5rem;
 }
 
-.navbar-fixed { 
-  margin-top: -25px;
-}
-
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
     left: 30%;
