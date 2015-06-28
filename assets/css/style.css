@@ -66,13 +66,6 @@ hr {
 #code-backdrop {
   opacity: 0.95;
   width: 100%;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: url(#blur);   
-  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
 }
 
 .skill-icon {
